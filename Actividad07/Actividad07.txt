@@ -1,0 +1,18 @@
+ALGORITMO 1
+Se inicializa la pila
+Se almacenan los valores en la pila
+Si contiene solo un valor almacenado o esta vacia, regresa error
+Si tiene 2 valores:
+	Obtiene el segundo valor, y trae consigo el primer valor, dejando la lista vacia
+Si tiene mas de dos valores:
+	Obtiene igualmente el segundo valor junto con el anterior, y la lista sigue existiendo pero sin sus dos primeros valores
+
+ALGORITMO 3
+Se inicializa la pila
+Se almacenan los valores en la pila
+Si la lista esta vacia:
+	No hago nada
+Si la lista contiene un elemento:
+	Unicamente lo obtiene y termina
+Si tiene 2 o mas:
+	Busca y saca los elementos de 1 en 1 hasta llegar y devolver el ultimo elemento, dejando la lista vacia al final de la operacion.
